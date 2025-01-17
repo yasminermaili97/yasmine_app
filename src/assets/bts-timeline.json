@@ -1,0 +1,176 @@
+{
+    "title": {
+      "text": {
+        "headline": "La Historia de BTS",
+        "text": "Los momentos más destacados del grupo desde su debut en 2013 hasta la actualidad."
+      }
+    },
+    "events": [
+      {
+        "start_date": {
+          "year": "2013",
+          "month": "06",
+          "day": "13"
+        },
+        "text": {
+          "headline": "Debut de BTS",
+          "text": "BTS debuta con 'No More Dream', el sencillo principal de su álbum '2 Cool 4 Skool'."
+        },
+        "media": {
+          "url": "https://i.pinimg.com/736x/25/6a/2c/256a2c96faa9cc11e0eb4747fe66dcf3.jpg",
+          "caption": "El comienzo de una era."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2014",
+          "month": "02",
+          "day": "12"
+        },
+        "text": {
+          "headline": "Primer Álbum de Estudio",
+          "text": "'Dark & Wild' es lanzado, mostrando un lado más maduro de BTS."
+        },
+        "media": {
+          "url": "https://i1.sndcdn.com/artworks-000101845597-cbw3iz-t500x500.jpg",
+          "caption": "Incluye éxitos como 'Danger' y 'War of Hormone'."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2015",
+          "month": "04",
+          "day": "29"
+        },
+        "text": {
+          "headline": "Lanzamiento de 'The Most Beautiful Moment in Life, Pt. 1'",
+          "text": "Este mini álbum marca un punto de inflexión con temas introspectivos como 'I NEED U' y 'Dope'."
+        },
+        "media": {
+          "url": "https://i1.sndcdn.com/artworks-000292445877-4ttwze-t500x500.jpg",
+          "caption": "'I NEED U' lleva a BTS al éxito en Corea del Sur."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2016",
+          "month": "10",
+          "day": "10"
+        },
+        "text": {
+          "headline": "Lanzamiento de 'WINGS'",
+          "text": "'WINGS' incluye el exitoso sencillo 'Blood Sweat & Tears' y explora temas más oscuros."
+        },
+        "media": {
+          "url": "https://i.pinimg.com/originals/be/72/52/be7252581c65a876ae3adf3d591281a0.jpg",
+          "caption": "'Blood Sweat & Tears' destaca por su poderosa coreografía."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2017",
+          "month": "05",
+          "day": "21"
+        },
+        "text": {
+          "headline": "Billboard Music Awards",
+          "text": "BTS gana su primer premio Top Social Artist en los BBMAs, superando a artistas como Justin Bieber."
+        },
+        "media": {
+          "url": "https://bangtanboysspain.wordpress.com/wp-content/uploads/2017/05/96155706_mediaitem96155705.jpg",
+          "caption": "Primer grupo coreano en ganar un premio en los BBMAs."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2018",
+          "month": "05",
+          "day": "18"
+        },
+        "text": {
+          "headline": "Lanzamiento de 'Love Yourself: Tear'",
+          "text": "El álbum debuta como número 1 en el Billboard 200, una primicia para BTS y cualquier artista de K-pop."
+        },
+        "media": {
+          "url": "https://universalmusiconline.es/cdn/shop/files/BTSLoveYourselfTEARLP_2048x.jpg?v=1706866923",
+          "caption": "Incluye 'Fake Love', una de sus canciones más icónicas."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2018",
+          "month": "09",
+          "day": "24"
+        },
+        "text": {
+          "headline": "Discurso en la ONU",
+          "text": "BTS da un emotivo discurso sobre el amor propio en la Asamblea General de la ONU como parte de la campaña 'Love Myself'."
+        },
+        "media": {
+          "url": "https://www.vagalume.com.br/dynimage/news36578-big.jpg",
+          "caption": "Un momento histórico para el grupo."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2020",
+          "month": "08",
+          "day": "21"
+        },
+        "text": {
+          "headline": "Lanzamiento de 'Dynamite'",
+          "text": "Primer sencillo completamente en inglés de BTS que rompe récords globales y alcanza el número 1 en el Billboard Hot 100."
+        },
+        "media": {
+          "url": "https://i1.sndcdn.com/artworks-tdvysjX343buEvSW-eRJpGw-t500x500.jpg",
+          "caption": "'Dynamite' brilla con energía positiva y optimismo."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2021",
+          "month": "05",
+          "day": "21"
+        },
+        "text": {
+          "headline": "Lanzamiento de 'Butter'",
+          "text": "El sencillo continúa el éxito global de BTS y domina las listas de música durante semanas."
+        },
+        "media": {
+          "url": "https://dims.apnews.com/dims4/default/d1b2681/2147483647/strip/false/crop/3000x1947+0+0/resize/1486x964!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fafs-prod%2Fmedia%2F05c41faefcc943e6b541d3cbb92ac1af%2F3000.jpeg",
+          "caption": "Una canción pegajosa y energética."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2022",
+          "month": "06",
+          "day": "14"
+        },
+        "text": {
+          "headline": "Anuncio de Hiatus Temporal",
+          "text": "BTS anuncia una pausa para enfocarse en proyectos individuales y el servicio militar obligatorio."
+        },
+        "media": {
+          "url": "https://i.ytimg.com/vi/1t0iJ7F_k9Q/maxresdefault.jpg",
+          "caption": "Un momento emotivo para ARMY y BTS."
+        }
+      },
+      {
+        "start_date": {
+          "year": "2023",
+          "month": "07",
+          "day": "22"
+        },
+        "text": {
+          "headline": "10° Aniversario de BTS",
+          "text": "Celebran una década de música, logros e impacto global con actividades especiales para ARMY."
+        },
+        "media": {
+          "url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/MD4ZKKE3OJHD3JTE6MREGYLQWE.jpg",
+          "caption": "Una celebración conmemorativa con ARMY alrededor del mundo."
+        }
+      }
+    ]
+  }
+  

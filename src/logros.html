@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>BTS Fan Website</title>
+</head>
+<body class="home">
+    <header>
+        <div class="logo">
+            <img src="../src/assets/img/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li ><a href="index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="logros.html" class="active">Logros</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="bts_fan.html">BTS Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main logros">
+        <div class="logros-legado">
+            <h2>Logros y Legado de BTS</h2>
+          
+           
+            <div class="logro-item">
+              <button class="logro-header" onclick="toggleContent('premios')">Premios Importantes</button>
+              <div class="logro-content" id="premios">
+                <ul>
+                  <li><strong>Grammy Awards:</strong> Primera nominación en 2020 por "Dynamite".</li>
+                  <li><strong>Billboard Music Awards:</strong> Ganadores del Top Social Artist durante 6 años consecutivos.</li>
+                  <li><strong>MTV VMAs:</strong> Ganadores de Best K-Pop, Group of the Year, y más.</li>
+                  <li><strong>AMAs:</strong> Primer grupo asiático en ganar Artist of the Year (2021).</li>
+                </ul>
+              </div>
+            </div>
+          
+          
+            <div class="logro-item">
+              <button class="logro-header" onclick="toggleContent('impacto')">Impacto Social</button>
+              <div class="logro-content" id="impacto">
+                <ul>
+                  <li>Discurso en la ONU sobre autoestima y juventud.</li>
+                  <li>Colaboración con UNICEF en la campaña "Love Myself".</li>
+                  <li>Creación de una comunidad inclusiva global conocida como ARMY.</li>
+                </ul>
+              </div>
+            </div>
+          
+      
+            <div class="logro-item">
+              <button class="logro-header" onclick="toggleContent('cifras')">Cifras Destacadas</button>
+              <div class="logro-content" id="cifras">
+                <ul>
+                  <li>Más de 10 mil millones de reproducciones en Spotify.</li>
+                  <li>"Dynamite" alcanzó 100 millones de vistas en YouTube en 24 horas.</li>
+                  <li>Récord de ventas de álbumes, superando 4 millones de copias con "Map of the Soul: 7".</li>
+                </ul>
+              </div>
+            </div>
+          
+            
+            <div class="logro-item">
+              <button class="logro-header" onclick="toggleContent('legado')">Legado Cultural</button>
+              <div class="logro-content" id="legado">
+                <ul>
+                  <li>Expansión global del K-pop en mercados como Estados Unidos y Europa.</li>
+                  <li>Popularización de la cultura coreana (Hallyu Wave).</li>
+                  <li>Inspiración para jóvenes artistas a nivel global.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+    </main>
+
+    <footer>
+        <div>
+            <span class="copyright">© 2025 BTS Fan Website. Todos los derechos reservados.</span>
+            <img src="../src/assets/img/bts_logo.png" alt="" class="logo_footer">
+            <p>IES Ribera de los molinos. Yasmine Rmaili</p>
+            <ul class="social_media">
+                <li class="social_media_item"><img src="../src/assets/img/instagram.png" alt=""> <a href="https://www.instagram.com/bts.bighitofficial/">Instagram</a></li>
+                <li class="social_media_item"><img src="../src/assets/img/twitter.png" alt=""><a href="https://x.com/bts_bighit">Twitter</a></li>
+                <li class="social_media_item"><img src="../src/assets/img/youtube.png" alt=""><a href="https://www.youtube.com/user/BANGTANTV">YouTube</a></li>
+                <li class="social_media_item"><img src="../src/assets/img/weverse.png" alt=""> <a href="https://weverse.io/bts/feed">Weverse</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="../src/js/logros.js"></script>
+</body>
+</html>

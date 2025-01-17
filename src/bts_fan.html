@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS Fan Website</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body class="home">
+    <header>
+        <div class="logo">
+            <img src="../src/assets/img/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li ><a href="index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="logros.html">Logros</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="bts_fan.html" class="active">BTS Game</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main bts-fan">
+        <div class="main__title">
+            <h1>¿Cuánto sabes sobre BTS?</h1>
+        </div>
+       <div class="main__subtitle">
+        <p>Pon a prueba tus conocimientos sobre el grupo más famoso del K-pop.</p>
+       </div>
+        <div class="bts-quiz">
+            <section class="prg1">
+                <h3>¿En qué año debutó BTS?</h3>
+                <label>
+                    <input type="radio" name="pregunta1" value="2010" onclick="repuesta(1,this)">2010
+                </label>
+                <label>
+                    <input type="radio" name="pregunta1" value="2013" onclick="repuesta(1,this)">2013
+                </label>
+                <label>
+                    <input type="radio" name="pregunta1" value="2015" onclick="repuesta(1,this)">2015
+                </label>
+                
+            </section>
+            <section class="prg2">
+                <h3>¿Cuál es el nombre del fandom de BTS?</h3>
+                <label>
+                    <input type="radio" name="pregunta2" value="Blink" onclick="repuesta(2,this)">Blink
+                </label>
+                <label>
+                    <input type="radio" name="pregunta2" value="Once" onclick="repuesta(2,this)">Once
+                </label>
+                <label>
+                    <input type="radio" name="pregunta2" value="Army" onclick="repuesta(2,this)">Army
+                </label>
+                
+            </section>
+            <section class="prg3">
+                <h3>¿Qué miembro es conocido como el Golden Maknae?</h3>
+                <label>
+                    <input type="radio" name="pregunta3" value="Jungkook" onclick="repuesta(3,this)">Jungkook
+                </label>
+                <label>
+                    <input type="radio" name="pregunta3" value="J-Hope" onclick="repuesta(3,this)">J-Hope
+                </label>
+                <label>
+                    <input type="radio" name="pregunta3" value="V" onclick="repuesta(3,this)">V
+                </label>
+                
+            </section>
+            <section class="prg4">
+                <h3>¿Qué significa BTS?</h3>
+                <label>
+                    <input type="radio" name="pregunta4" value="Beyond the Stars" onclick="repuesta(4,this)">Beyond the Stars
+                </label>
+                <label>
+                    <input type="radio" name="pregunta4" value="Best Teen Singers" onclick="repuesta(4,this)">Best Teen Singers
+                </label>
+                <label>
+                    <input type="radio" name="pregunta4" value="Bangtan Sonyeondan" onclick="repuesta(4,this)">Bangtan Sonyeondan
+                </label>
+                
+            </section>
+            <section class="prg5">
+                <h3>¿Cuál fue el primer premio internacional que ganó BTS?</h3>
+                <label>
+                    <input type="radio" name="pregunta5" value="Billboard Music Award - Top Social Artist" onclick="repuesta(5,this)">Billboard Music Award - Top Social Artist
+                </label>
+                <label>
+                    <input type="radio" name="pregunta5" value="AMA Artist of the Year"  onclick="repuesta(5,this)">AMA Artist of the Year
+                </label>
+                <label>
+                    <input type="radio" name="pregunta5" value="Grammy" onclick="repuesta(5,this)">Grammy
+                </label>
+                
+            </section>
+
+            <section class="prg6">
+                <h3>¿Qué canción llevó a BTS a la fama en Corea del Sur?</h3>
+                <label>
+                    <input type="radio" name="pregunta6" value="Dynamite" onclick="repuesta(6,this)">Dynamite
+                </label>
+                <label>
+                    <input type="radio" name="pregunta6" value="I NEED U" onclick="repuesta(6,this)"> I NEED U
+                </label>
+                <label>
+                    <input type="radio" name="pregunta6" value="DNA" onclick="repuesta(6,this)">DNA
+                </label>
+            </section>
+
+            <section class="prg7">
+                <h3>¿Cuál es el color oficial de BTS?</h3>
+                <label>
+                    <input type="radio" name="pregunta7" value="Azul" onclick="repuesta(7,this)">Azul
+                </label>
+                <label>
+                    <input type="radio" name="pregunta7" value="Morado" onclick="repuesta(7,this)">Morado
+                </label>
+                <label>
+                    <input type="radio" name="pregunta7" value="Blanco" onclick="repuesta(7,this)">Blanco
+                </label>
+            </section>  
+
+            <section class="prg8">
+                <h3>¿Qué miembro lanzó la canción 'Euphoria'?</h3>
+                <label>
+                    <input type="radio" name="pregunta8" value="Jimin" onclick="repuesta(8,this)">Jimin
+                </label>
+                <label>
+                    <input type="radio" name="pregunta8" value="Jin" onclick="repuesta(8,this)">Jin
+                </label>
+                <label>
+                    <input type="radio" name="pregunta8" value="Jungkook"  onclick="repuesta(8,this)">Jungkook                
+                </label>
+            </section>
+
+            <section class="prg9">
+                <h3>¿En qué ciudad dio BTS su primer discurso en la ONU?</h3>
+                <label>
+                    <input type="radio" name="pregunta9" value="París" onclick="repuesta(9,this)">París
+                </label>
+                <label> 
+                    <input type="radio" name="pregunta9" value="New York" onclick="repuesta(9,this)">New York
+                </label>
+                <label>
+                    <input type="radio" name="pregunta9" value="Seúl" onclick="repuesta(9,this)">Seúl
+                </label>                
+            </section>      
+
+            <section class="prg10">
+                <h3>¿En qué año ganó BTS su primer premio en los Billboard Music Awards?</h3>
+                <label>
+                    <input type="radio" name="pregunta10" value="2017" onclick="repuesta(10,this)">2017
+                </label>
+                <label> 
+                    <input type="radio" name="pregunta10" value="2018" onclick="repuesta(10,this)">2018
+                </label>
+                <label>
+                    <input type="radio" name="pregunta10" value="2021" onclick="repuesta(10,this)">2021
+                </label>                
+            </section>
+
+            <button id="boton" class="btn">Comprobar</button>
+
+            <h2>Puntuación: <span id="score"></span></h2>
+
+            <h1 class="comentario" id="comentario"></h1>
+        </div>
+          
+        <script src="/src/js/bts_fan.js"></script>
+    </main>
+
+    <footer>
+        <div>
+            <span class="copyright">© 2025 BTS Fan Website. Todos los derechos reservados.</span>
+            <img src="../src/assets/img/bts_logo.png" alt="" class="logo_footer">
+            <p>IES Ribera de los molinos. Yasmine Rmaili</p>
+            <ul class="social_media">
+                <li class="social_media_item"><img src="../src/assets/img/instagram.png" alt=""> <a href="https://www.instagram.com/bts.bighitofficial/">Instagram</a></li>
+                <li class="social_media_item"><img src="../src/assets/img/twitter.png" alt=""><a href="https://x.com/bts_bighit">Twitter</a></li>
+                <li class="social_media_item"><img src="../src/assets/img/youtube.png" alt=""><a href="https://www.youtube.com/user/BANGTANTV">YouTube</a></li>
+                <li class="social_media_item"><img src="../src/assets/img/weverse.png" alt=""> <a href="https://weverse.io/bts/feed">Weverse</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../src/js/bts_fan.js"></script>
+</body>
+</html>

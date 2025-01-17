@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>BTS Fan Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="/src/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body class="home">
+    <header>
+        <div class="logo">
+            <img src="../src/assets/img/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li ><a href="index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="logros.html">Logros</a></li>
+                <li><a href="galeria.html" class="active">Galería</a></li>
+                <li><a href="contacto.html" >Contacto</a></li>
+                <li><a href="bts_fan.html">BTS Game</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main galeria"> 
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide uno"><h1>BTS Galería</h1></div>
+          <div class="swiper-slide dos"><h1>Bienvenidos a BTS World</h1></div>
+          <div class="swiper-slide ">
+            <video autoplay muted loop id="myVideo">
+              <source src="../src/assets/video/v1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="swiper-slide cuatro">
+            <video autoplay muted loop id="myVideo">
+              <source src="../src/assets/video/v2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="swiper-slide ">
+            <video autoplay muted loop id="myVideo">
+              <source src="../src/assets/video/v3.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="swiper-slide ">
+            <video autoplay muted loop id="myVideo">
+              <source src="../src/assets/video/v4.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="swiper-slide ">
+            <video autoplay muted loop id="myVideo">
+              <source src="../src/assets/video/v5.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="swiper-slide ">
+            <video autoplay muted loop id="myVideo">
+              <source src="../src/assets/video/v6.mp4" type="video/mp4">
+            </video>
+          </div>
+         
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </main>
+<footer>
+    <div>
+        <span class="copyright">© 2025 BTS Fan Website. Todos los derechos reservados.</span>
+        <img src="../src/assets/img/bts_logo.png" alt="" class="logo_footer">
+        <p>IES Ribera de los molinos. Yasmine Rmaili</p>
+        <ul class="social_media">
+            <li class="social_media_item"><img src="../src/assets/img/instagram.png" alt=""> <a href="https://www.instagram.com/bts.bighitofficial/">Instagram</a></li>
+            <li class="social_media_item"><img src="../src/assets/img/twitter.png" alt=""><a href="https://x.com/bts_bighit">Twitter</a></li>
+            <li class="social_media_item"><img src="../src/assets/img/youtube.png" alt=""><a href="https://www.youtube.com/user/BANGTANTV">YouTube</a></li>
+            <li class="social_media_item"><img src="../src/assets/img/weverse.png" alt=""> <a href="https://weverse.io/bts/feed">Weverse</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+
+</html>
