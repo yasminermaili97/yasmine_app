@@ -34,7 +34,7 @@ function mostrarComentario() {
     comentario.textContent = " Excelente! Estas muy cerca de ser un BTS Fan!";
 
   } else  if ( puntaje == 10) {
-    comentario.textContent = "Arma de BTS! Has ganado el juego!";
+    comentario.textContent = "Army de BTS! Has ganado el juego!";
   }
   else {
     comentario.textContent = "Lo siento, pero no has ganado el juego.";
