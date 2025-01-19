@@ -2,7 +2,7 @@ const arr=[];
 inicio();
 async function inicio() {
     if (await rellenaArray() != null) {
-        arrJuegos = await rellenaArray();
+        arr = await rellenaArray();
     }
    
 }
